@@ -1,0 +1,371 @@
+@media screen and (max-width: 1024px) {
+	body {
+		font-size: 15px;
+	}
+	.header__list {
+		justify-content: space-around;
+	}
+	.header__list .header__item:not(:last-child) {
+		margin-bottom: 57px;
+	}
+	.steps__number-wrap {
+		justify-content: flex-start;
+		padding-left: 45%;
+	}
+	.steps .star {
+		top: -65px;
+	}
+	.steps__number:first-child .steps__number-wrap {
+		padding-left: 0;
+		justify-content: center;
+	}
+	.goal__card-img {
+		margin-bottom: 20px;
+	}
+	.goal__card-text {
+		padding: 0 5px;
+	}
+	.goal__card-text p:first-child {
+		min-height: 110px;
+	}
+	.steps__underhead {
+		margin-bottom: 44px;
+	}
+	.goal {
+		padding-bottom: 57px;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	.goal h2 {
+		margin-bottom: 72px;
+	}
+	.program {
+		padding-bottom: 66px;
+	}
+	.program__cards .program__card:not(:last-child) {
+		margin-bottom: 65px;
+	}
+	.program__cards .program__card:nth-child(1),
+	.program__cards .program__card:nth-child(2),
+	.program__cards .program__card:nth-child(3) {
+		padding-bottom: 33px;
+	}
+	.program__card-body {
+		padding-right: 10px;
+	}
+	.program__result-head {
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+	.program__item-text br {
+		display: none;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	.program {
+		padding-top: 62px;
+	}
+	.program h2:after {
+		bottom: -26px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.header__logo {
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 19px;
+	}
+	.header__top-text {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	h1 {
+		font-size: 36px;
+		line-height: 44px;
+	}
+	h1:after,
+	h2:after {
+		width: 70px;
+	}
+	.header__underheading {
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.header__item-text {
+		font-size: 18px;
+	}
+	.header__item {
+		width: 270px;
+		height: 145px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.header__date-text {
+		font-size: 18px;
+		line-height: 22px;
+		margin-left: 17px;
+	}
+	.header__date {
+		justify-content: flex-start;
+	}
+	.header__list {
+		justify-content: space-between;
+	}
+	.header__item:last-child {
+		margin: 0 auto;
+	}
+	.header__content .star {
+		top: -230px;
+	}
+	.header__inp,
+	.header__btn {
+		font-size: 18px;
+		line-height: 21px;
+	}
+	.form__agree-text {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.header__after-text {
+		text-align: left;
+		font-size: 16px;
+		line-height: 19px;
+	}
+	.header__star-left {
+		display: none;
+	}
+	.header {
+		background-image: url('../img/header-bg-mobile.jpg');
+		padding-bottom: 94px;
+	}
+	.header__scroller {
+		display: none;
+	}
+	.header__logo {
+		width: 52px;
+		height: 52px;
+		object-fit: cover;
+		image-rendering: -webkit-optimize-contrast;
+	}
+	.goal {
+		padding-top: 57px;
+	}
+	.goal__card-text p:first-child {
+		min-height: 100px;
+	}
+	.goal__card:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.goal .row:nth-child(2) .col-md-6:not(:last-child) .goal__card {
+		margin-bottom: 20px;
+	}
+	.steps .stars {
+		display: none;
+	}
+	.steps__underhead {
+		font-size: 24px;
+	}
+	.steps h2 {
+		margin-bottom: 40px;
+	}
+	.steps {
+		padding: 50px 0px;
+	}
+}
+@media screen and (max-width: 480px) {
+	body {
+		font-size: 14px;
+	}
+	.header__top-text {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	h1 {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.header__underheading {
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.header__item {
+		width: 320px;
+		margin: 0 auto;
+		height: 118px;
+	}
+	.header__list .header__item:not(:last-child) {
+		margin-bottom: 51px;
+	}
+	.header .stars {
+		display: none;
+	}
+	.header__date-text {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.header__date-undertext {
+		display: block;
+	}
+	.header__inp {
+		margin-bottom: 21px;
+	}
+	.header {
+		padding-bottom: 60px;
+		padding-top: 36px;
+	}
+	.program__card-body {
+		flex-wrap: wrap;
+	}
+	.program__date {
+		width: 165px;
+	}
+	.program__head {
+		width: calc(100% - 165px);
+	}
+	.program__card-header {
+		font-size: 16px;
+	}
+	.program__card-body {
+		justify-content: space-around;
+		padding: 0px 10px;
+		padding-top: 10px;
+	}
+	.program__cards .program__card:not(:last-child) {
+		margin-bottom: 42px;
+	}
+	.program,
+	.goal {
+		padding-bottom: 35px;
+		padding-top: 35px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	.goal h2 {
+		margin-bottom: 54px;
+	}
+	.steps__numbers {
+		display: none;
+	}
+	.steps__undercard-text {
+		/* list-style: disc inside;
+		display: list-item; */
+		position: relative;
+		padding-left: 23px;
+		margin-bottom: 10px;
+	}
+	.steps__undercard-text-last {
+		margin-bottom: 0;
+	}
+	.steps__undercard-text:before {
+		content: '';
+		font-size: 14px;
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		left: 0;
+		top: 5px;
+		background-image: url('../img/steps-check.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		image-rendering: -webkit-optimize-contrast;
+		object-fit: cover;
+	}
+	.steps__underhead {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.program-img {
+		margin-right: 0;
+	}
+}
+@media screen and (max-width: 375px) {
+	.header__date-text {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.header__after-text {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.program-img {
+		width: 70%;
+		image-rendering: -webkit-optimize-contrast;
+	}
+	.goal__card-text p:first-child {
+		min-height: auto;
+		margin-bottom: 10px;
+	}
+	.goal__card-body {
+		min-height: auto;
+		padding-bottom: 30px;
+	}
+	.col-12-mobile {
+		flex: 0 0 auto;
+    	width: 100%;
+    	margin-left: 0;
+	}
+	.col-10-mobile {
+		flex: 0 0 auto;
+    	width: 83.33333333%;
+    	margin-left: 8.33333333%;
+	}
+	h1 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.header__underheading {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.header__item-text {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.header__item {
+		padding: 10px;
+	}
+	.header__date {
+		justify-content: center;
+		margin-bottom: 35px;
+	}
+	.form__agree-text {
+		margin-top: 10px;
+		margin-bottom: 25px;
+	}
+	.program__date {
+		width: 130px;
+	}
+	.program__head {
+		width: calc(100% - 130px);
+	}
+	.program__card-header {
+		line-height: 21px;
+	}
+	.program__card-body {
+		padding: 0px 13px;
+		padding-top: 10px;
+	}
+	.program__cards .program__card:nth-child(1), 
+	.program__cards .program__card:nth-child(2), 
+	.program__cards .program__card:nth-child(3) {
+		padding-bottom: 20px;
+	}
+	.steps {
+		padding: 30px 0px;
+	}
+	.program__card-header {
+		height: 105px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.program-img {
+		width: 100%;
+	}
+}
